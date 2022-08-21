@@ -5,29 +5,56 @@
     background-size: cover;
     padding: 150px;
 }
+.icono{
+    width: 50px;
+    
+}
 h1, h2, small{
     background-color: rgba(135, 207, 235, 0.447);
     border-radius: 10px;
 }
+h2{
+    text-align: center;
+    color: white;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+}
 main{
     background-color: rgba(135, 207, 235, 0.447);
-    padding: 150px;
+    /* padding: 150px; */
 }
 .container a{
     color: white;
 }
-.ofertas{
-    padding-top: 100px;
+.contaniedo-gal{
+    width: 700px;
 }
-.card-body{
-    background-color: rgb(218, 215, 215);
+.ofertas{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.apto{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: linear-gradient(to top, white, skyblue);
 }
 .card{
-    width: 20rem;
-    margin: 5px;
+    width: 280px;
+    padding: 10px;
+    margin: 5px; 
 }
 .btn-color{
     background-color: #1e6ee4;
+}
+/* GALERIA */
+.carousel{
+    display: flex;
+    justify-content: center;
+    /* width: 700px; */
 }
 .form{
     overflow: hidden;
@@ -35,6 +62,54 @@ main{
     /* background-color: rgba(135, 207, 235, 0.447); */
     text-align: center;
 }
-.footer{
-    flex-direction: column;
+.footer .row{
+    display: inline-block;
+}   
+.ul-footer{
+    padding: 10px;
+    text-align: center;
+}
+.ul-footer img{
+    width: 25px;
+    margin: 5px;
+}
+.ul-footer img:hover{
+    background-color: #b8cff1;
+}
+
+
+/* MEDIA QUERIS */
+@media (max-width:1160px){
+
+
+}
+@media (max-width: 412px){
+    .banner{
+        padding: 50px;
+    }
+    .icono{
+        width: 30px;
+    }
+    h1{
+        width: 100px;
+    }
+    small{
+        display: flex;
+        width: 200px;
+        
+    }
+    .small-div{
+        display: flex;
+        width: 200px;
+    }
+    .article-container{
+        width: 500px;
+    }
+}
+/* MEDIA QUERIS GALERIA*/
+@media (max-width: 412px){
+    .carrusel{
+        width: 380px;
+    }
+
 }
