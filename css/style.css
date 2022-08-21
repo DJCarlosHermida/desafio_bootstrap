@@ -1,0 +1,40 @@
+.banner{
+    background-image: url(../img/oficina1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+h1, h2, small{
+    background-color: rgba(135, 207, 235, 0.447);
+    border-radius: 10px;
+}
+main{
+    background-color: rgba(135, 207, 235, 0.447);
+    padding: 150px;
+}
+.container a{
+    color: white;
+}
+.ofertas{
+    padding-top: 100px;
+}
+.card-body{
+    background-color: rgb(218, 215, 215);
+}
+.card{
+    width: 20rem;
+    margin: 5px;
+}
+.btn-color{
+    background-color: #1e6ee4;
+}
+.form{
+    overflow: hidden;
+    padding: 50px;
+    /* background-color: rgba(135, 207, 235, 0.447); */
+    text-align: center;
+}
+.footer{
+    flex-direction: column;
+}
