@@ -42,6 +42,9 @@ main{
     padding: 50px;
     background: linear-gradient(to top, white, skyblue);
 }
+.apto-contacto{
+    background: linear-gradient(to top, white, skyblue);
+}
 .card{
     width: 280px;
     padding: 10px;
