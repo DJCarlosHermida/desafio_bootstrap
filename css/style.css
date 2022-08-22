@@ -79,7 +79,16 @@ main{
 .ul-footer img:hover{
     background-color: #b8cff1;
 }
-
+.about{
+    display: flex;
+    text-align: center;
+    background: linear-gradient(to top, white, skyblue);
+    justify-content: center;
+}
+.card-about{
+    padding: 10px;
+    
+}
 
 /* MEDIA QUERIS */
 @media (max-width:1160px){
